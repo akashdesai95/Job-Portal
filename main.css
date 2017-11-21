@@ -1,0 +1,89 @@
+html,body{
+    height: 100%
+}
+
+.img {
+    position:relative;
+    height:300px;
+    width:100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    padding-top:-10px;
+    padding-bottom:-10px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.apply li a {
+    color: #f4511e !important;
+}
+
+.apply li a:hover {
+    color: #fff;
+    background-color: rgb(216, 218, 179) !important;
+}
+
+.plunge {
+    background-color:white;
+    padding:8px;
+}
+
+.top{
+    background-color:rgb(32, 32, 28);
+    color:white;
+}
+
+.thumbnail {
+    padding: 0 0 0 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.team {
+    background-color:rgb(216, 218, 179);
+    padding-bottom:8px;
+}
+
+.contact {
+    background-color: #f4511e;
+    color: white;
+    line-height:85%;
+    
+}
+
+.copyright {
+    background-color:rgb(32, 32, 28);
+    color:white;
+    padding:8px;
+}
+
+.register {
+    background-color:rgb(216, 218, 179);
+}
